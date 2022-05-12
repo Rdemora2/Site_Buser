@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Viagens de ônibus com mais baratas que a passagem da rodoviária
+    </title>
+  </head>
+
+  <body>
+    <!-- ************************************HEADER************************************ -->
+    <header>
+      <nav class="barra_nav inblock">
+        <img class="logo" src="img/logo.svg" alt="logo da buser" />
+
+        <div class="flex alin_nav">
+          <a href="" class="inblock buser bold nav">Buscar</a>
+          <a href="" class="inblock buser bold nav">Carteira</a>
+          <a href="" class="inblock buser bold nav">Viagens</a>
+          <a href="" class="inblock buser bold nav">Promoções</a>
+          <a href="" class="inblock buser bold nav">Ajuda</a>
+
+          <img class="perfil flex" src="img/perfil.jpeg" alt="foto de perfil" />
+        </div>
+      </nav>
+    </header>
+    <!-- ************************************MAIN************************************ -->
+    <main>
+      <div class="box_banner">
+        <div class="banner">
+          <h2 class="viagens flex bold branco">
+            Viagens de ônibus com mais baratas que a passagem da rodoviária
+          </h2>
+
+          <h3 class="taxas branco flex">
+            Sem taxas, com segurança e preço justo
+          </h3>
+          <hr class="hr_banner" />
+          <p class="inblock escolha branco semibold">Escolha a melhor data</p>
+          <p class="inblock parcele branco semibold">Parcele em até 12x</p>
+          <p class="inblock parcele branco semibold">Compra 100% segura</p>
+        </div>
+      </div>
+      <div class="busca">
+        <select class="partida">
+          <option selected>Saindo de</option>
+          <option value="1">São Paulo - SP</option>
+          <option value="2">São José dos Campos - SP</option>
+          <option value="3">Rio de Janeiro - RJ</option>
+          <option value="4">Belo Horizonte - MG</option>
+        </select>
+
+        <select class="destino">
+          <option selected>Indo para</option>
+          <option value="1">São Paulo - SP</option>
+          <option value="2">São José dos Campos - SP</option>
+          <option value="3">Rio de Janeiro - RJ</option>
+          <option value="4">Belo Horizonte - MG</option>
+        </select>
+        <input id="date" type="date" />
+        <input id="date" type="date" />
+        <button type="button" class="buscar">🔍</button>
+      </div>
+      <div class="destinos">
+        <h2 class="tit_dest semibold">Destinos mais procurados</h2>
+        <div>
+          <div class="bh inblock box_cidades">
+
+            <div class="capa1 tamanho">
+              <div class="txt">
+              <p class="branco semibold txt2">Ônibus para</p>
+              <h3 class="branco bold">Belo Horizonte</h3>
+              </div>
+            </div>
+
+            <div class="flex ajustes">
+              <ul class="cidades">
+                <li class="titulo bold">Saindo de</li>
+                <hr class="divid">
+                <li>São Paulo</li>
+                <li>Rio de Janeiro</li>
+                <li>Vitória</li>
+                <li>Cabo frio</li>
+                <li>Brasília</li>
+              </ul>
+
+            <ul class="valores">
+              <li class="titulo bold">Preços a partir de</li>
+              <hr class="divid2">
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+            </ul>
+            </div>
+
+          </div>
+
+        <div class="brasilia inblock box_cidades">
+
+          <div class="capa2 tamanho">
+            <div class="txt">
+              <p class="branco semibold txt2">Ônibus para</p>
+              <h3 class="branco bold">Brasília</h3>
+            </div>
+          </div>
+
+          <div class="flex ajustes">
+            <ul class="cidades">
+              <li class="titulo bold">Saindo de</li>
+              <hr class="divid">
+              <li>São Paulo</li>
+              <li>Rio de Janeiro</li>
+              <li>Vitória</li>
+              <li>Cabo frio</li>
+              <li>Brasília</li>
+            </ul>
+
+            <ul class="valores">
+              <li class="titulo bold">Preços a partir de</li>
+              <hr class="divid2">
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="Campinas inblock box_cidades">
+
+          <div class="capa3 tamanho">
+            <div class="txt">
+              <p class="branco semibold txt2">Ônibus para</p>
+              <h3 class="branco bold">Campinas</h3>
+            </div>
+          </div>
+
+            <div class="flex ajustes">
+            <ul class="cidades">
+              <li class="titulo bold">Saindo de</li>
+              <hr class="divid">
+              <li>São Paulo</li>
+              <li>Rio de Janeiro</li>
+              <li>Vitória</li>
+              <li>Cabo frio</li>
+              <li>Brasília</li>
+            </ul>
+
+            <ul class="valores">
+              <li class="titulo bold">Preços a partir de</li>
+              <hr class="divid2">
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+              <li>R$24,90</li>
+            </ul>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </main>
+    <!-- ************************************FOOTER************************************ -->
+    <footer></footer>
+  </body>
+</html>

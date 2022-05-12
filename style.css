@@ -1,0 +1,285 @@
+/* ************************************IMPORTS************************************ */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* ************************************GERAL************************************ */
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+html {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ************************************DISPLAYS / POSITIONS************************************ */
+
+.inblock {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.block {
+  display: block;
+}
+
+/* ************************************CORES************************************ */
+
+.buser {
+  color: #f11075;
+}
+
+.branco {
+  color: #fff;
+}
+
+.preto {
+  color: rgb(24, 24, 24);
+}
+
+/* ************************************WEIGHTS************************************ */
+
+.semibold {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* ************************************HEADER************************************ */
+
+header .barra_nav {
+  width: 100vw;
+  height: 77px;
+  padding: 0 19%;
+}
+
+nav .logo {
+  width: 200px;
+  margin-top: 18px;
+}
+
+nav .nav {
+  padding: 16px;
+  font-size: 22px;
+}
+
+nav .alin_nav {
+  margin-left: 50%;
+  margin-top: -47px;
+}
+
+nav .perfil {
+  width: 40px;
+  height: 40px;
+  margin-top: 16px;
+  border-radius: 30px;
+  margin-left: 4%;
+  margin-top: 6px;
+}
+
+/* ************************************MAIN************************************ */
+
+main .box_banner {
+  width: 100vw;
+  height: 426px;
+}
+
+main .banner {
+  width: 100%;
+  height: 100%;
+}
+
+main .busca {
+  width: 63vw;
+  height: 13vh;
+  padding: 48px 43px 35px 43px;
+  margin: 0px auto;
+  background-color: #fff;
+  margin-top: -65px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 1px 5px 23px 4px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 1px 5px 23px 4px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 1px 5px 23px 4px rgba(0, 0, 0, 0.22);
+}
+
+main .viagens {
+  text-transform: uppercase;
+  font-size: 43px;
+  width: 620px;
+  height: 156px;
+  line-height: 60px;
+  margin-left: 49%;
+  padding-top: 25px;
+}
+
+main .taxas {
+  margin-left: 49%;
+  padding-top: 60px;
+  font-size: 27px;
+  width: 619px;
+  height: 203px;
+}
+
+main .hr_banner {
+  margin-left: calc(49% - 2px);
+  margin-top: -79px;
+  width: 32%;
+  background-color: rgb(255, 255, 255);
+  height: 1px;
+  border: none;
+}
+
+main .banner {
+  background-image: url(img/banner.png);
+  background-position: center;
+  width: 100vw;
+  height: 440px;
+}
+
+main .escolha {
+  margin-left: 49%;
+  margin-top: 14px;
+  font-size: 17px;
+}
+
+main .parcele {
+  margin-left: 4%;
+  font-size: 17px;
+}
+
+main select {
+  width: 346px;
+  height: 52px;
+  border: 1px solid rgb(155, 155, 155);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+main input {
+  width: 155px;
+  height: 52px;
+  border: 1px solid rgb(155, 155, 155);
+  border-radius: 5px;
+  background-color: #fff;
+  margin-right: 23px;
+}
+
+main button {
+  width: 90px;
+  height: 52px;
+  background-color: #f11075;
+  border-radius: 5px;
+  border: none;
+}
+
+main .destino {
+  margin: 0px 23px;
+}
+
+main .destinos {
+  padding: 0 calc(19% - 10px);
+}
+
+main .tit_dest {
+  font-size: 38px;
+  margin: 25px 0;
+  letter-spacing: 1px;
+}
+
+main .box_cidades {
+  width: 395px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin: 14px;
+  border-radius: 15px;
+  border: 1px solid rgb(223, 223, 223);
+}
+
+main .capa1 {
+  background-image: url(img/bh.png);
+}
+
+main .capa2 {
+  background-image: url(img/brasilia.png);
+}
+
+main .capa3 {
+  background-image: url(img/campinas.png);
+}
+
+main .tamanho {
+  width: 395px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0px 0px;
+  filter: contrast(70%);
+}
+
+main .txt {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+main .txt2 {
+  font-size: 25px;
+}
+
+main .cidades {
+  line-height: 50px;
+  font-size: 18px;
+  margin: 5px 75px 0 30px;
+  text-align: left;
+}
+
+main .valores {
+  line-height: 50px;
+  font-size: 18px;
+  margin: 5px 0 0 0;
+  text-align: right;
+}
+
+main .ajustes {
+  flex-direction: row;
+}
+
+main .titulo {
+  margin-bottom: -10px;
+}
+
+main .divid {
+  width: 120px;
+  height: 1px;
+  margin-left: -8px;
+  border: none;
+  background-color: rgb(223, 223, 223);
+}
+
+main .divid2 {
+  width: 240px;
+  height: 1px;
+  margin-left: -85px;
+  border: none;
+  background-color: rgb(223, 223, 223);
+}
