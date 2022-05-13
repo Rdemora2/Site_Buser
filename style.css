@@ -109,7 +109,7 @@ main .banner {
 main .busca {
   width: 63vw;
   height: 13vh;
-  padding: 48px 43px 35px 43px;
+  padding: 48px 25px 35px 25px;
   margin: 0px auto;
   background-color: #fff;
   margin-top: -65px;
@@ -166,7 +166,7 @@ main .parcele {
 }
 
 main select {
-  width: 346px;
+  width: 334px;
   height: 52px;
   border: 1px solid rgb(155, 155, 155);
   border-radius: 5px;
@@ -179,11 +179,11 @@ main input {
   border: 1px solid rgb(155, 155, 155);
   border-radius: 5px;
   background-color: #fff;
-  margin-right: 23px;
+  margin-right: 10px;
 }
 
 main button {
-  width: 90px;
+  width: 80px;
   height: 52px;
   background-color: #f11075;
   border-radius: 5px;
@@ -191,7 +191,7 @@ main button {
 }
 
 main .destino {
-  margin: 0px 23px;
+  margin: 0px 10px;
 }
 
 main .destinos {
@@ -205,7 +205,7 @@ main .tit_dest {
 }
 
 main .box_cidades {
-  width: 395px;
+  width: 354px;
   height: 500px;
   background-color: rgb(255, 255, 255);
   margin: 14px;
@@ -226,7 +226,7 @@ main .capa3 {
 }
 
 main .tamanho {
-  width: 395px;
+  width: 354px;
   height: 150px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -249,14 +249,14 @@ main .txt2 {
 main .cidades {
   line-height: 50px;
   font-size: 18px;
-  margin: 5px 75px 0 30px;
+  margin: 5px 40px 0 20px;
   text-align: left;
 }
 
 main .valores {
   line-height: 50px;
   font-size: 18px;
-  margin: 5px 0 0 0;
+  margin: 0 0 0 0;
   text-align: right;
 }
 
@@ -269,23 +269,24 @@ main .titulo {
 }
 
 main .divid {
-  width: 120px;
+  width: 130px;
   height: 1px;
+  margin-top: 3px;
   margin-left: -8px;
   border: none;
   background-color: rgb(223, 223, 223);
 }
 
 main .divid2 {
-  width: 240px;
+  width: 225px;
   height: 1px;
-  margin-left: -85px;
+  margin-left: -65px;
   border: none;
   background-color: rgb(223, 223, 223);
 }
 
 main .container {
-  width: 1282px;
+  width: 1156px;
   display: flex;
 }
 
